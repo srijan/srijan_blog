@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="{{site.description}}" />
+    <meta name="keywords" content="programming, technology, linux, flex, ubuntu" />
+    <meta property="og:title" content="{%if page.title %} {{page.title}} - {{site.name}}{% else %}{{site.name}}{% endif %}" />
+    <meta property="og:type" content="Blog" />
+    <meta property="og:url" content="{{site.baseurl}}{{page.url}}" />
+    <meta property="og:description" content="{{site.description}}" />
+    <meta property="og:site_name" content="{{site.name}}" />
+    <title>{%if page.title %} {{page.title}} - {{site.name}}{% else %}{{site.name}}{% endif %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="{{site.baseurl}}/css/layout.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="{{site.baseurl}}/css/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic|Yanone+Kaffeesatz:regular,bold" />
+    <link rel="stylesheet" href="{{site.baseurl}}/css/pictonic.css">
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-6428393-9']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+       })();
+
+     </script>
+   </head>
+   <body>
+     <div class="wrap" id="page">
+       <div class="payload">
+         <div class="main">
+           <div class="header">
+             <ul id="social">
+               <li><a href="http://twitter.com/srijan4"><span class="icon-twitter-3"></span></a></li>
+                 <li><a href="http://in.linkedin.com/in/srijan4"><span class="icon-linkedin"></span></a></li>
+                 <li><a href="https://github.com/srijan"><span class="icon-github-01"></span></a></li>
+               <li><a href="{{ site.baseurl }}/atom.xml"><span class="icon-rss"></span></a></li>
+             </ul>
+             <h1><a href="{{ site.baseurl }}/">Srijan Choudhary</a></h1>
+           </div>
+
+           {{ content }}
+
+           <div class="footer">
+             <div class="footer-copynone">Powered by <a href="http://github.com/mojombo/jekyll">Jekyll</a> and <a href="https://github.com/phusion/juvia/">Juvia</a>. Hosted on <a href="https://www.nearlyfreespeech.net/">NSFN</a></div>
+           </div><!--/footer-->
+         </div><!--/main-->
+       </div><!--/payload-->
+     </div><!--/wrap-->
+     <script type="text/javascript">
+       var clicky_site_ids = clicky_site_ids || [];
+       clicky_site_ids.push(66468058);
+       (function() {
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = '//static.getclicky.com/js';
+        ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+        })();
+</script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/66468058ns.gif" /></p></noscript>
+ </body>
+
+</html>

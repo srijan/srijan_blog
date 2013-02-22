@@ -1,0 +1,17 @@
+lsi: true
+auto: false
+permalink: /:categories/:title.html
+paginate: 3
+pygments: true
+tag_dir: tag
+tag_title_prefix: "Tags &raquo; "
+related_tags: true
+baseurl: 
+# Change the dir the individual category files are output to
+category_dir: categories # Default is categories
+# Title to be used when generating the individual category html files prefixed to category name
+category_title_prefix: "categories"
+name: "srijan's Blog"
+author: "Srijan Choudhary"
+email: "srijan4@gmail.com"
+description: "The personal blog of Srijan Choudhary about programming, technology, linux"
