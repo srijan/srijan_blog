@@ -14,3 +14,5 @@ I will be updating here how exactly I did it here in a little while.
 This post was made from Firefox for android.
 
 You can see the [code for this blog on github](https://github.com/srijan/srijan_blog).
+
+[Update Posted](/blogging/posting-to-jekyll-from-my-phone-details.html).
