@@ -15,3 +15,4 @@ name: "srijan's Blog"
 author: "Srijan Choudhary"
 email: "srijan4@gmail.com"
 description: "The personal blog of Srijan Choudhary about programming, technology, linux"
+markdown: kramdown
