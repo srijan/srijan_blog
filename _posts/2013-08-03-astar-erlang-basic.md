@@ -8,6 +8,8 @@ published: true
 
 Recently I had to write some path finding algorithms in Erlang. The first version I chose was A\*. But, there is no easy way to implent A\* in a distributed way. So, this is the simplest implementation possible. I may rewrite it later if I find a better way.
 
+This code is mostly a modified version of [this one](http://stevegilham.blogspot.in/2008/10/first-refactoring-of-star-in-erlang.html).
+
 The code hosted on gist follows below, followed by some notes.
 
 {% gistnocache 6142366 astar.erl %}
