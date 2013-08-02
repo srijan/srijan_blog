@@ -11,11 +11,11 @@ blockquote {font-style: italic;}
 img {-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;margin-bottom: 20px;}
 a img {display: block;}
 
-body {color: #4f4d4b;background: #FFF;font-family: 'PT Sans', "Lucida Grande", Helvetica, "Lucida Sans Unicode", "Lucida Sans", Tahoma, Arial, sans-serif;font-size: 16px;line-height: 24px;-webkit-text-size-adjust: none;}
+body {color: #4f4d4b;background: #FFF;font-family: "Lato", corbel, "lucida grande", helvetica, sans-serif;font-size: 18px;line-height: 26px;-webkit-text-size-adjust: none;}
 
 /* = BOXES */
 .wrap {background: #FFF;margin: 0px;padding: 0px;}
-.payload {width: 100%;max-width: 700px;margin: 0 auto;overflow: hidden;}
+.payload {width: 100%;max-width: 900px;margin: 0 auto;overflow: hidden;}
 .side {margin-right: 0;float: right;width: 0%;}
 .header {margin-right: 3.8%;padding: 0 0 15px 0;float: left;width: 100%; border-bottom: #D7D7D7 dotted 1px; margin-bottom:20px;}
 .header h1 {display: inline;}
@@ -24,7 +24,7 @@ body {color: #4f4d4b;background: #FFF;font-family: 'PT Sans', "Lucida Grande", H
 .header ul {float: right; margin-bottom: -20px; margin-top:0px; display:inline;}
 .header ul li{display: inline; list-style:none; margin: 0 0 0 10px;}
 .main {margin-right: 3.8%;padding: 40px 0 0 0;float: left;width: 100%;}
-.footer {margin: 15px 0 0 0;color:#8c8c8c;font-size:13px;}
+.footer {margin: 15px 0 0 0;color:#8c8c8c;font-size:15px;}
 .footer-copynone {margin-right: 3.8%;float: left;width: 100%;}
 .footer-toplink {margin-right:0;float:right;width:20%;text-align:right;}
 
@@ -37,12 +37,12 @@ body {color: #4f4d4b;background: #FFF;font-family: 'PT Sans', "Lucida Grande", H
 .post h2, .post p, .post h3 {padding-left: 0px;}
 .post p img {margin: 0;padding-left:-0px;}
 .post h2, .post h3 {font-family: 'Yanone Kaffeesatz', Arial, sans-serif;font-weight: normal;}
-.post h2 {font-size: 25px;color: #32677a;margin:20px 0;}
+.post h2 {font-size: 30px;color: #32677a;margin:20px 0;}
 .post h2 a, .post h2 a:link, .post h2 a:visited, .post h2 a:active, .post h2 a:hover {color:#32677a;background:transparent;text-decoration:none;border:none;}
-.post p {font-family: 'PT Sans', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, Arial, Helvetica, sans-serif;font-size: 15px;line-height: 21px;}
+.post p {font-family: "Lato", corbel, "lucida grande", helvetica, sans-serif;font-size: 18px;line-height: 26px;}
 .post ul li{margin-left: 19px;}
 .post-meta {margin: 10px 0;padding: 0;}
-.meta-date, .meta-tags {margin: 0;font-size: 12px;font-weight: normal;color: #8c8c8c;}
+.meta-date, .meta-tags {margin: 0;font-size: 14px;font-weight: normal;color: #8c8c8c;}
 .meta-tags ul {margin: 0;padding: 0;list-style: none;}
 .meta-tags li {margin: -20px;padding: 0;display: inline;list-style: none;}
 .meta-tags li:after{content: ',';}
@@ -73,7 +73,7 @@ body {color: #4f4d4b;background: #FFF;font-family: 'PT Sans', "Lucida Grande", H
 /* = BYLINE */
 .side h2 {margin: 10px;}
 #byline{}
-#byline a, #byline a:link, #byline a:visited, #byline a:active {border: none;text-decoration: none;text-transform: uppercase;font-size: 13px;	color: #32677a;padding: 3px 5px;}
+#byline a, #byline a:link, #byline a:visited, #byline a:active {border: none;text-decoration: none;text-transform: uppercase;font-size: 14px;	color: #32677a;padding: 3px 5px;}
 #byline a:hover {background: #f1f1f1;}
 #byline a span {color: #4f4d4b;}
 /* = NAVIGATION */
@@ -111,8 +111,8 @@ div.clear_both { clear: both; }
 /* = GENERAL TYPOGRAPHY */
 span.fancy {font-family:Baskerville,'Goudy Old Style',Palatino,'Book Antiqua',serif;font-style:italic;font-weight:normal;padding:0 5px;}
 
-h2 {font-family: 'Yanone Kaffeesatz', Arial, sans-serif;font-weight: normal;font-size: 25px;color: #32677a;margin:24px 0;}
-h3 {margin: 5px 0 10px 0;font-size: 18px;font-weight: normal;}
+h2 {font-family: 'Yanone Kaffeesatz', Arial, sans-serif;font-weight: normal;font-size: 30px;color: #32677a;margin:24px 0;}
+h3 {margin: 5px 0 10px 0;font-size: 24px;font-weight: normal;}
 
 a, a:link, a:active {color: #7B3F00;text-decoration: underline;}
 a:visited{color: #7b4587;}
@@ -133,4 +133,22 @@ hr{margin:24px 0 0 0;color:#DDD;background:#DDD;height:1px;border:none;}
   #byline, #navigation {text-align: center;}
   #navigation li {margin: 0 10px 0 0;padding: 0;list-style: none;display: inline;}
   .post-meta {padding: 0;}
+}
+
+.gist * {
+  margin: 0;
+  padding: 0;
+}
+
+.gist .line-data {
+  background-color: #F8F8FF;
+}
+
+.gist .line-numbers, .gist .line-data {
+  padding: 0;
+  margin: 0;
+}
+.gist .line-number, .gist .line {
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-size: 13px;
 }

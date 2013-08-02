@@ -1,5 +1,4 @@
 lsi: true
-auto: false
 permalink: /:categories/:title.html
 paginate: 3
 pygments: true
