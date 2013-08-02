@@ -135,6 +135,18 @@ hr{margin:24px 0 0 0;color:#DDD;background:#DDD;height:1px;border:none;}
   .post-meta {padding: 0;}
 }
 
+code {
+  margin-top: -10px;
+  padding-top: 0px;
+  margin-bottom: 15px;
+}
+
+pre {
+  margin-top: -10px;
+  padding-top: 0px;
+  margin-bottom: 15px;
+}
+
 .gist * {
   margin: 0;
   padding: 0;
