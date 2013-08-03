@@ -6,6 +6,7 @@ tag_dir: tag
 tag_title_prefix: "Tags &raquo; "
 related_tags: true
 baseurl: 
+url: http://www.srijn.net
 # Change the dir the individual category files are output to
 category_dir: categories # Default is categories
 # Title to be used when generating the individual category html files prefixed to category name
