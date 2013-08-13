@@ -18,4 +18,4 @@ The deploy script pulls the latest changes, rebuilds the website (using [jekyll]
 
 The webhook deploy script I use is something like this:
 
-{% gistnocache 5233531 deploy.php %}
+{% gist 5233531 deploy.php %}

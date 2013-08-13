@@ -12,7 +12,7 @@ This code is mostly a modified version of [this one](http://stevegilham.blogspot
 
 The code hosted on gist follows below, followed by some notes.
 
-{% gistnocache 6142366 astar.erl %}
+{% gist 6142366 astar.erl %}
 
 ### Notes
 
