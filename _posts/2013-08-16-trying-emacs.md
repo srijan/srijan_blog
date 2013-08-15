@@ -6,11 +6,11 @@ categories: [programming]
 published: true
 ---
 
-I have been using [Vim][1] as my text editor of choice for the last few years, and have been very happy with it. But, some features of [Emacs][2] have lately got me interested (especially [org-mode][3]), and I wanted to try it out. After all, I won't know the difference until I actually try it, and opinions on text editors vary widely on the internet.
+I have been using [Vim][1] as my text editor for the last few years, and have been very happy with it. But lately, some features of [Emacs][2] have got me interested (especially [org-mode][3]), and I wanted to try it out. After all, I won't know the difference until I actually try it, and opinions on text editors vary widely on the internet.
 
-So, I decided to give it a try. First I went through the build-in Emacs Tutorial, and it seemed easy enough. I got used to the basic commands fairly quickly. I guess the real benifits will start to show a little later, when I try to optimize some way of doing things.
+So, I decided to give it a try. First I went through the built-in Emacs Tutorial, and it seemed easy enough. I got used to the basic commands fairly quickly. I guess the real benefits will start to show a little later, when I try to optimize some ways of doing things.
 
-For now, I just wanted to do some basic configurations so that I could start working on emacs right now. So, I did the following changes (scroll to the bottom of this page for the actual `init.el` file):
+For now, I just wanted to do some basic configuration so that I could start using emacs right now. So, I did the following changes (scroll to the bottom of this page for the full `init.el` file):
 
 * Hide the menu, tool, and scroll bars
 
@@ -19,12 +19,12 @@ For now, I just wanted to do some basic configurations so that I could start wor
 * Hide splash screen and banner
 
 * Setup [Marmalade][4]
-  
-  Marmalade is a package archive for emacs, which makes it easier to install non-official packages.
 
-* Make window maximized on startup
+	Marmalade is a package archive for emacs, which makes it easier to install non-official packages.
 
-  My emacs was not starting up maximized, and I did not want to manimize it manually everytime I started it. So, [I found this][5], and tried out one of the [solutions for linux][6], and it worked out great.
+* Maximize emacs window on startup
+
+	My emacs was not starting up maximized, and I did not want to maximize it manually every time I started it. I found [this page][5] addressing this issue, and tried out one of the [solutions for linux][6], and it worked great.
 
 For now, it all looks good, and I can start using it with only this small configuration.
 
