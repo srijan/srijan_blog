@@ -18,7 +18,11 @@ For now, I have not included any provisioning stuff in the box, but might do so 
 
 Maybe I'll write a script to generate the box itself.
 
-Download link again: [http://vagrant.srijn.net][4]
+The box can be downloaded from this link: [http://vagrant.srijn.net][4], or using the following commands:
+
+    $ vagrant box add arch64 http://vagrant.srijn.net/archlinux-x64-2013-08-17.box
+    $ vagrant init arch64
+    $ vagrant up
 
 [1]: http://www.vagrantup.com/
 [2]: https://www.archlinux.org/
