@@ -12,6 +12,7 @@ RedirectPermanent /srijan/2010/sound-naming-specifications /linux/ubuntu-sound-n
 RedirectPermanent /srijan/2010/a-proper-blog-finally /blogging/a-proper-blog-finally.html
 RedirectPermanent /about.html /
 RedirectPermanent /contact.html /
+RedirectPermanent /programming/erlang-profiling-tips.html /notes/erlang-profiling-tips.html
 
 AddType image/x-icon .ico
 ExpiresActive On
