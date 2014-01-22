@@ -5,9 +5,9 @@ layout: default
 
 My name is **Srijan Choudhary** and I am a Software Engineer based in Gurgaon, India. After graduating from BITS Pilani, I am currently working at Grey Orange Robotics.
 
-My work focuses on network programming and artificial intelligence.
+My work focuses on network programming and artificial intelligence. I use Emacs, and primarily program in Python and Erlang.
 
-In my free time, I enjoy [hacking with new technologies](https://github.com/srijan/), and [listening to music](http://www.last.fm/user/srijan4).
+In my free time, I enjoy [hacking with new technologies](https://github.com/srijan/), [listening to music](http://www.last.fm/user/srijan4), and [reading stuff online](https://pinboard.in/u:srijan/).
 
 ## Contact
 
