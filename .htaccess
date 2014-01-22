@@ -1,0 +1,25 @@
+RewriteEngine on 
+RewriteCond %{HTTP:Accept-Encoding} gzip 
+RewriteCond %{REQUEST_FILENAME}.gz -f 
+RewriteRule ^(.*)$ $1.gz [L]
+
+RedirectPermanent /remuco-control-your-linux-music-player-using /linux/remuco-control-linux-music-player-using-bluetooth-phone.html
+RedirectPermanent /a-blog-with-jekyll-and-github-or-bitbucket /blogging/a-blog-with-jekyll-and-github-or-bitbucket.html
+RedirectPermanent /reading-ext2ext3ext4-filesystems-on-windows-7 /linux/reading-ext2ext3ext4-filesystems-on-windows-7.html
+RedirectPermanent /srijan/2010/bsnls-huawei-wll-modem-installation-on-ubuntu /linux/bsnls-huawei-wll-modem-installation-on-ubuntu.html
+RedirectPermanent /srijan/2010/creating-ubuntu-sound-themes-for-9-10-and-10-04 /linux/creating-ubuntu-sound-themes-for-9-10-and-10-04.html
+RedirectPermanent /srijan/2010/sound-naming-specifications /linux/ubuntu-sound-naming-specifications.html
+RedirectPermanent /srijan/2010/a-proper-blog-finally /blogging/a-proper-blog-finally.html
+RedirectPermanent /about.html /
+RedirectPermanent /contact.html /
+RedirectPermanent /programming/erlang-profiling-tips.html /notes/erlang-profiling-tips.html
+
+AddType image/x-icon .ico
+ExpiresActive On
+ExpiresByType image/x-icon "access plus 1 month"
+
+<FilesMatch "\.(js|css|xml|gz)$">
+  Header append Vary: Accept-Encoding
+</FilesMatch>
+
+AddType 'text/html; charset=utf-8' html
