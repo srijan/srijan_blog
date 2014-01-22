@@ -16,19 +16,17 @@ In my free time, I enjoy [hacking with new technologies](https://github.com/srij
 ## Blog Posts
 
 <ul class="posts">
-{% for post in site.posts %}
-{% unless post.categories[0] == "notes" %}
-<li><span class="fancy">{{ post.date | date: "%B %d, %Y" }}</span> <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
-{% endunless %}
-{% endfor %}
+    {% for post in site.posts %}
+        {% unless post.categories[0] == "notes" %}
+            <li><span class="fancy">{{ post.date | date: "%B %d, %Y" }}</span> <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+        {% endunless %}
+    {% endfor %}
 </ul>
 
 ## Notes
 
 <ul class="posts">
-{% for post in site.categories.notes %}
-<li><span class="fancy">{{ post.date | date: "%B %d, %Y" }}</span> <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
+    {% for post in site.categories.notes %}
+        <li><span class="fancy">{{ post.date | date: "%B %d, %Y" }}</span> <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
 </ul>
-
-You can also browse through specific topics via [the tags list]({{ site.baseurl }}/tags.html "Tags List")

@@ -1,3 +1,0 @@
-[submodule "_extensions"]
-	path = _extensions
-	url = git://github.com/rfelix/my_jekyll_extensions.git
