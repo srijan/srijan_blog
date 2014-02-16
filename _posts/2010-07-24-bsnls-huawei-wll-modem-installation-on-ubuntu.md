@@ -3,6 +3,7 @@ layout: post
 title:  BSNL's HUAWEI WLL Modem Installation on Ubuntu
 tags: [bsnl, huawei, wll, modem, linux, ubuntu, india]
 categories: [linux]
+description: "BSNL's HUAWEI WLL Modem Installation on Ubuntu"
 ---
 
 There are already many blog posts and forum entries regarding this. This is just my drop in the ocean.

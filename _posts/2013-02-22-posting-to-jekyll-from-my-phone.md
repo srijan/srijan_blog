@@ -10,7 +10,7 @@ tags:
   - prose
 categories: 
   - blogging
-
+description: "Posting to jekyll using a phone"
 ---
 
 I recently set up my blog so that I can update it from my mobile or any browser.

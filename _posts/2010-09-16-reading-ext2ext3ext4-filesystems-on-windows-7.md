@@ -3,6 +3,7 @@ layout: post
 title:  Reading ext2/ext3/ext4 filesystems on Windows 7
 tags: [ext2, ext3, ext4, windows 7, linux]
 categories: [linux]
+description: "Reading ext2/ext3/ext4 filesystems on Windows 7"
 ---
 
 If you dual boot windows with ubuntu (or some other linux distro) and often switch between the two, you will invariably need some file which is on the other system.

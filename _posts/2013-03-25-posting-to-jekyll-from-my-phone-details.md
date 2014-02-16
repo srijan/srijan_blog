@@ -4,6 +4,7 @@ title: Posting to Jekyll from my phone - Details
 tags: [jekyll, blogging, mobile, github, prose]
 categories: [blogging]
 published: true
+description: "Details about posting to jekyll using a phone"
 ---
 
 This is an update to [an earlier post](/blogging/posting-to-jekyll-from-my-phone.html).

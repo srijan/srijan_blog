@@ -3,6 +3,7 @@ layout: post
 title:  A proper blog.. finally
 tags: [blog, anayalabs, bits pilani]
 categories: [blogging]
+description: "First post to this blog"
 ---
 
 I have started a few blogs in the past, but I always lost interest after a few months, and stopped writing. Hopefully, this will not end that way.

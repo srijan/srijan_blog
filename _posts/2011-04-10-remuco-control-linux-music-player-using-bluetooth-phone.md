@@ -3,6 +3,7 @@ layout: post
 title: Remuco - Control your linux music player using your bluetooth phone
 tags: [linux, music player, bluetooth, remote, remuco]
 categories: [linux]
+description: "Using remuco to control a linux music player via any bluetooth phone"
 ---
 
 I recently came across a new software (during my search for awesome apps using bluetooth) for linux which lets you control a music player via your phone using bluetooth.

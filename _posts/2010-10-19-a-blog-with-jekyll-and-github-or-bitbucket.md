@@ -3,6 +3,7 @@ layout: post
 title: A blog with jekyll and github/bitbucket
 tags: [blog, jekyll, github, bitbucket, free blog host]
 categories: [blogging]
+description: "Hosting a jekyll blog on github or bitbuket"
 ---
 
 Today, a friend asked me to start him up with a blog of his own. I was going to suggest [posterous](http://posterous.com/), but he had some conditions:

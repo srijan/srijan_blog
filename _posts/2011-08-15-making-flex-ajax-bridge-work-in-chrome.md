@@ -3,6 +3,7 @@ layout: post
 title: Making Flex-Ajax Bridge work in Chrome and Chromium
 tags: [flex, programming, adobe, ajax, flex-ajax bridge, google chrome, chromium]
 categories: [programming]
+description: "Making Flex Ajax Bridge work in Google Chrome and Chromium browsers"
 ---
 
 Adobe has made it very easy to interact with flex applications from javascript by making the [Flex-Ajax Bridge](http://livedocs.adobe.com/flex/3/html/help.html?content=ajaxbridge_1.html).

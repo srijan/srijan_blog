@@ -3,6 +3,7 @@ layout: post
 title: Creating sounds themes for Ubuntu 9.10 and 10.04
 tags: [sound themes, ubuntu, linux, lucid lynx, karmic koala]
 categories: [linux]
+description: "Creating sounds themes for Ubuntu 9.10 and 10.04"
 ---
 
 I recently installed Ubuntu 10.04 Lucid Lynx and was impressed with the work done by its developers. But the default system sounds were still the same and I didn't  like them. So, I started searching for a way to change these sounds and make my own sound theme.

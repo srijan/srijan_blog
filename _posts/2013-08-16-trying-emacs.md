@@ -4,6 +4,7 @@ title: Trying Emacs
 tags: [emacs, editor]
 categories: [programming]
 published: true
+description: "My experiment with trying emacs as a text editor for programming"
 ---
 
 I have been using [Vim][1] as my text editor for the last few years, and have been very happy with it. But lately, some features of [Emacs][2] have got me interested (especially [org-mode][3]), and I wanted to try it out. After all, I won't know the difference until I actually try it, and opinions on text editors vary widely on the internet.

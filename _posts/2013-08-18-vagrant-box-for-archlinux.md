@@ -4,6 +4,7 @@ title: Vagrant box for Archlinux 64 bit
 tags: [vagrant, archlinux, virtualbox]
 categories: [programming]
 published: true
+description: "A vagrant box for Archlinux 64 bit"
 ---
 
 I have been using [Vagrant][1] a lot since its beginning, and the boxes provided by them have been enough till now.

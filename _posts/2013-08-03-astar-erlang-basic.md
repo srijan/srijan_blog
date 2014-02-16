@@ -4,6 +4,7 @@ title: Basic implementation of A* in Erlang
 tags: [erlang, pathfinding, programming]
 categories: [programming]
 published: true
+description: "Basic implementation of A* in Erlang"
 ---
 
 Recently I had to write some path finding algorithms in Erlang. The first version I chose was A\*. But, there is no easy way to implent A\* in a distributed way. So, this is the simplest implementation possible. I may rewrite it later if I find a better way.

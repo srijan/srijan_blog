@@ -1,5 +1,6 @@
 ---
 layout: default
+description: "The personal blog of Srijan Choudhary about programming, technology, linux"
 ---
 ## About
 

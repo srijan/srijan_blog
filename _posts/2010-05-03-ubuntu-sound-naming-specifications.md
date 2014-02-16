@@ -3,6 +3,7 @@ layout: post
 title:  Ubuntu sound naming specification
 tags: [ubuntu, customization, karmic koala, lucid lynx, linux]
 categories: [linux]
+description: "Ubuntu sound naming specifications"
 ---
 
 This specification gives direction on how to name the sounds that are available for use by applications, when creating a sound theme. You can also goto [Creating sounds themes for Ubuntu 9.10 and 10.04](http://blogs.anayalabs.com/srijan/2010/creating-ubuntu-sound-themes-for-9-10-and-10-04/).

@@ -3,6 +3,7 @@ layout: post
 title: Erlang Profiling Tips
 tags: [erlang, profiling, reltool, rebar, programming]
 categories: [notes]
+description: "Some erlang profiling tips"
 ---
 
 I have been using erlang recently for some of my work and private projects, and so I have decided to write about a few things there were hard to discover.
