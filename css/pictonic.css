@@ -1,59 +1,64 @@
 @charset "UTF-8";
 @font-face
 { 
-  font-family: "pictonic";
-  src: url("../font/pictonic.eot");
-  src: url("../font/pictonic.eot?#iefix") format("eot");
-  src: local("☺"),
-  url("../font/pictonic.woff") format("woff"),
-  url("../font/pictonic.ttf") format("truetype"),
-  url("../font/pictonic.svg") format("svg");
-  font-weight: normal; font-style: normal;
+    font-family: pictonic;
+    src: url('../font/pictonic.eot');
+    src: url('../font/pictonic.eot?#iefix') format('embedded-opentype'),
+        url('../font/pictonic.ttf') format('truetype'),
+        url('../font/pictonic.woff') format('woff'),
+        url('../font/pictonic.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
-
-[class^="icon-"], [class*=" icon-"] {
-  font-family:"pictonic";
-  font-weight: normal; font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-  font-size: 24px;
-  color: #5c5c5c;
-  text-shadow:0px 5px 10px #aaa;
-  padding-top: -20px;
-  display:inline;
+ 
+.pictonic
+{
+	font-family: "pictonic";
+	font-weight: normal; font-style: normal;
+	-webkit-font-smoothing:  antialiased !important;
+	-moz-font-smoothing:  antialiased !important;
+	font-smoothing:  antialiased !important;
+	line-height:1em;
+}
+ 
+a.pictonic, span.pictonic, small.pictonic {
+	display: -moz-inline-stack;
+	display:inline-block;
+	zoom: 1;
+	*display: inline;
+}
+ 
+[class^="icon-"], [class*=" icon-"]
+{
+	font-family: "pictonic";
+	font-weight: normal; font-style: normal;
+	-webkit-font-smoothing:  antialiased !important;
+	-moz-font-smoothing:  antialiased !important;
+	font-smoothing:  antialiased !important;
+        font-size: 24px;
+        color: #5c5c5c;
+        text-shadow:0px 5px 10px #aaa;
+        padding-top: -20px;
+        display:inline;
+        line-height:1em;
 }
 
 [class^="icon-"]:hover, [class*=" icon-"]:hover {
-  color: #ef4136;
+        color: #ef4136;
 }
 
 a[class^="icon-"], a[class*=" icon-"], span[class^="icon-"], span[class*=" icon-"], small[class^="icon-"], small[class*=" icon-"] {
-  display: -moz-inline-stack;
-  display:inline-block;
-  zoom: 1;
-  *display: inline;
-  text-decoration: none;
+	display: -moz-inline-stack;
+	display:inline-block;
+	zoom: 1;
+	*display: inline;
 }
-
-.icon-github-02:before { content:""; } 
-.icon-github-01:before { content:""; } 
-.icon-soundcloud:before { content:""; } 
-.icon-rdio:before { content:""; } 
-.icon-linkedin:before { content:""; } 
-.icon-mail:before { content:""; } 
-.icon-weblink_2:before { content:""; } 
-.icon-tumblr:before { content:""; } 
-.icon-twitter-1:before { content:""; } 
-.icon-twitter-3:before { content:""; } 
-.icon-twitter-2:before { content:""; } 
-.icon-skype:before { content:""; } 
-.icon-share:before { content:""; } 
-.icon-rss:before { content:""; } 
-.icon-last_fm:before { content:""; } 
-.icon-google:before { content:""; } 
-.icon-gmail:before { content:""; } 
-.icon-forrst:before { content:""; } 
-.icon-flickr:before { content:""; } 
-.icon-evernote:before { content:""; } 
-.icon-facebook:before { content:""; }
+  
+.icon-twitter-3:before { content:""; } 
+.icon-google__x2B_:before { content:""; } 
+.icon-linkedin:before { content:""; } 
+.icon-github-01:before { content:""; } 
+.icon-rss:before { content:""; } 
+.icon-last_fm:before { content:""; } 
+.icon-mail:before { content:""; } 
+.icon-share:before { content:""; }

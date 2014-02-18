@@ -10,48 +10,52 @@
     <meta property="og:url" content="{{site.baseurl}}{{page.url}}" />
     <meta property="og:description" content="{{page.description}}" />
     <meta property="og:site_name" content="{{site.name}}" />
-    <title>{%if page.title %} {{page.title}} - {{site.name}}{% else %}{{site.name}}{% endif %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>{%if page.title %} {{page.title}} - {{site.name}}{% else %}{{site.name}}{% endif %}</title>
+
     <link rel="stylesheet" href="{{site.baseurl}}/css/layout.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="{{site.baseurl}}/css/default.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato|Yanone+Kaffeesatz:regular,bold" />
     <link rel="stylesheet" href="{{site.baseurl}}/css/pictonic.css">
+    <!--[if lt IE 8]><script src="{{site.baseurl}}/js/pictonic.min.js"></script><![endif]-->
+
     <script type="text/javascript">
+     var _gaq = _gaq || [];
+     _gaq.push(['_setAccount', 'UA-6428393-9']);
+     _gaq.push(['_trackPageview']);
 
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-6428393-9']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
+     (function() {
        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-       })();
+     })();
+    </script>
 
-     </script>
-   </head>
-   <body>
-     <div class="wrap" id="page">
-       <div class="payload">
-         <div class="main">
-           <div class="header">
-             <ul id="social">
-               <li><a href="http://twitter.com/srijan4"><span class="icon-twitter-3"></span></a></li>
-                 <li><a href="http://in.linkedin.com/in/srijan4"><span class="icon-linkedin"></span></a></li>
-                 <li><a href="https://github.com/srijan"><span class="icon-github-01"></span></a></li>
-               <li><a href="{{ site.baseurl }}/atom.xml"><span class="icon-rss"></span></a></li>
-             </ul>
-             <h1><a href="{{ site.baseurl }}/">Srijan Choudhary</a></h1>
-           </div>
+  </head>
+  <body>
+    <div class="wrap" id="page">
+      <div class="payload">
+        <div class="main">
+          <div class="header">
+            <ul id="social">
+              <li><a href="//plus.google.com/111781135820248974565"><span class="icon-google__x2B_"></span></a></li>
+              <li><a href="//twitter.com/srijan4"><span class="icon-twitter-3"></span></a></li>
+              <li><a href="//www.linkedin.com/in/srijan4"><span class="icon-linkedin"></span></a></li>
+              <li><a href="//github.com/srijan"><span class="icon-github-01"></span></a></li>
+              <li><a href="{{ site.baseurl }}/atom.xml"><span class="icon-rss"></span></a></li>
+            </ul>
+            <h1><a href="{{ site.baseurl }}/">Srijan Choudhary</a></h1>
+          </div>
 
-           {{ content }}
+          {{ content }}
 
-           <div class="footer">
-             <div class="footer-copynone">Blog powered by <a href="http://jekyllrb.com/">Jekyll</a>. Comments powered by <a href="http://posativ.org/isso/">Isso</a>.</div>
-           </div><!--/footer-->
-         </div><!--/main-->
-       </div><!--/payload-->
-     </div><!--/wrap-->
- </body>
+          <div class="footer">
+            <div class="footer-copynone">Blog powered by <a href="http://jekyllrb.com/">Jekyll</a>. Comments powered by <a href="http://posativ.org/isso/">Isso</a>.</div>
+          </div><!--/footer-->
+        </div><!--/main-->
+      </div><!--/payload-->
+    </div><!--/wrap-->
+  </body>
 
 </html>
