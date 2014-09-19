@@ -1,12 +1,12 @@
-name: srijan's blog
+name: "srijan's blog"
+url: "https://www.srijn.net"
+description: "The personal blog of Srijan Choudhary about programming, technology, linux"
+author: "Srijan Choudhary"
+email: "srijan4@gmail.com"
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 baseurl: 
-url: http://www.srijn.net
 permalink: /:categories/:title.html
 tag_title_prefix: "Tags &raquo; "
 tag_dir: tag
 related_tags: true
-name: "srijan's Blog"
-author: "Srijan Choudhary"
-email: "srijan4@gmail.com"
