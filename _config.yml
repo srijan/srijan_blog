@@ -1,5 +1,7 @@
 name: "srijan's blog"
 url: "https://www.srijn.net"
+tag_domain: "www.srijn.net"
+creation_date: 2012-10-08
 description: "The personal blog of Srijan Choudhary about programming, technology, linux"
 author: "Srijan Choudhary"
 email: "srijan4@gmail.com"
