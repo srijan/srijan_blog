@@ -4,11 +4,11 @@ description: "The personal blog of Srijan Choudhary about programming, technolog
 ---
 ## About
 
-My name is **Srijan Choudhary** and I am a Software Engineer based in Gurgaon, India. After graduating from BITS Pilani, I am currently working at Grey Orange Robotics.
+My name is **Srijan Choudhary** and I am a Software Engineer based in Gurgaon, India. After graduating from BITS Pilani, I am currently working at [Grey Orange](http://www.greyorange.sg/).
 
-My work focuses on network programming and artificial intelligence. I use Emacs, and primarily program in Python and Erlang.
+My work focuses on backend software development, network programming and artificial intelligence. I use Emacs, and primarily program in Python and Erlang.
 
-In my free time, I enjoy [hacking with new technologies](https://github.com/srijan/), [listening to music](http://www.last.fm/user/srijan4), and [reading stuff online](https://pinboard.in/u:srijan/).
+In my free time, I enjoy [hacking with new technology](https://github.com/srijan/), [listening to music](http://www.last.fm/user/srijan4), and [reading stuff online](https://pinboard.in/u:srijan/).
 
 ## Contact
 
