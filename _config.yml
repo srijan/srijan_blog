@@ -12,5 +12,18 @@ permalink: /:categories/:title.html
 tag_title_prefix: "Tags &raquo; "
 tag_dir: tag
 related_tags: true
+
+jekyll-archives:
+  enabled:
+    - tags
+    - categories
+  layouts:
+    tag: tag-archive
+    category: category-archive
+  permalinks:
+    tag: "/archives/tag/:name/"
+    category: "/:name/"
+
 gems:
+  - jekyll-archives
   - jekyll-sitemap

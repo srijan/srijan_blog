@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<h2>Archive of posts with {{ page.type }} '{{ page.title }}'</h2>
+<ul>
+{% for post in page.posts %}
+  <li>
+    <span class="fancy">{{post.date | date: "%B %d, %Y"}}</span> <a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>

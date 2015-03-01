@@ -9,7 +9,7 @@ layout: default
     <div class="meta-tags">
       <ul>{{site.tag_title_prefix}}
         {% for tag in page.tags %}
-        <li><a href="{{site.baseurl}}/tag/{{ tag }}/" title="Posts tagged {{ tag }}">{{ tag }}</a></li>
+        <li><a href="{{site.baseurl}}/archives/tag/{{ tag }}/" title="Posts tagged {{ tag }}">{{ tag }}</a></li>
         {% endfor %}
       </ul>
     </div>
@@ -17,14 +17,6 @@ layout: default
   {{ content }}
 
   <hr class="pad" />
-  <!--	<div class="related-posts">
-    <h3>Related Articles</h3>
-    <ul class="posts">
-      {% for post in site.related_posts limit:3 %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </div> -->
 </div>
 <div class="paginator">
 
