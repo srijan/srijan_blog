@@ -12,3 +12,5 @@ permalink: /:categories/:title.html
 tag_title_prefix: "Tags &raquo; "
 tag_dir: tag
 related_tags: true
+gems:
+  - jekyll-sitemap
