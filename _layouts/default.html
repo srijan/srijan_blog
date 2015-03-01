@@ -3,9 +3,9 @@
 
   <head>
     <meta charset="utf-8" />
-    <meta name="description" content="{{site.description}}" />
-    <meta name="keywords" content="programming, technology, linux, flex, ubuntu" />
-    <meta property="og:title" content="{%if page.title %} {{page.title}} - {{site.name}}{% else %}{{site.name}}{% endif %}" />
+    <meta name="description" content="{{page.description}}" />
+    <meta name="keywords" content="{{page.tags | join: ', '}}" />
+    <meta property="og:title" content="{%if page.title %}{{page.title}} - {{site.name}}{% else %}{{site.name}}{% endif %}" />
     <meta property="og:type" content="Blog" />
     <meta property="og:url" content="{{site.baseurl}}{{page.url}}" />
     <meta property="og:description" content="{{page.description}}" />
