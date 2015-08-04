@@ -1,4 +1,4 @@
-baseurl = "https://www.srijn.net"
+baseurl = "https://www.srijn.net/"
 languageCode = "en-us"
 title = "srijan's blog"
 theme = "crisp"
