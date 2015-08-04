@@ -14,6 +14,7 @@ theme = "crisp"
   tag_domain = "www.srijn.net"
   creation_date = "2012-10-08"
   gplus = "111781135820248974565"
+  ga = "UA-6428393-9"
 
 [author]
   name = "Srijan Choudhary"
