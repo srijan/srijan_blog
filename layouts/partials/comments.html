@@ -1,0 +1,7 @@
+<div id="comments">
+    {{ if ne .Params.comments false}}
+    {{ $doc := . }}
+    <section id="isso-thread" data-title="{{ $doc.Title }}"></section>
+    <script data-isso="https://www.srijn.net/isso/" src="https://www.srijn.net/isso/js/embed.min.js"></script>
+    {{ end }}
+</div>
