@@ -7,10 +7,10 @@ tags: [development, slack, phabricator, bot]
 [Phabricator][1] is a collection of open source web [applications useful for software
 development][2] built on a single platform. We have been using phabricator tools for
 about a month now, and it seems great. The best thing is: all different
-components (code review, task/bug tracking, project management, repo browing)
+components (code review, task/bug tracking, project management, repo browsing)
 are well-integrated with one another, and work really well together.
 
-Except one thing, of course, and that is it's chat app (Conpherence). This is what they say
+Except one thing, of course, and that is it's chat app (called Conpherence). This is what they say
 about it themselves:
 
 > * Like Slack, but nowhere as good.
@@ -105,9 +105,9 @@ We have to pass a list of project PHIDs in `notification.projects`.
 
 So, the version shared above works fine for me, for now. Currently, it does not
 support connecting to multiple channels, having different config per channel,
-detecting projects things other than tasks, ability to enter project name
+detecting projects for things other than tasks, ability to enter project name
 instead of PHID in config file, etc. These are some things I would want to add
-to my diff in the future.
+to my patch in the future.
 
 Also, another good solution to all this would be to extend the chatbot code in
 phabricator in a generic way to be able to support bots for different services
