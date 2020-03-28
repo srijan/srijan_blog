@@ -1,0 +1,17 @@
+[[main]]
+  identifier = "about"
+  name = "about"
+  url = "about"
+  weight = 1
+
+# [[main]]
+#   identifier = "gallery"
+#   name = "gallery"
+#   url = "gallery"
+#   weight = 2
+
+[[main]]
+  identifier = "feed"
+  name = "feed"
+  url = "index.xml"
+  weight = 3

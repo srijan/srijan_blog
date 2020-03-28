@@ -1,0 +1,172 @@
+logoText = "srijan's blog" # Logo text that appears in the site navigation bar.
+logoType = "short" # long, short -> short: squre shape includes logo text, long: rectangle shape not includes logo text
+logo = false # Logo that appears in the site navigation bar.
+description = "Random posts on programming, linux, system administration, etc" # for SEO
+custom_css = ["scss/custom.scss"] # custom_css = ["scss/custom.scss"] and then make file at root/assets/scss/custom.scss
+custom_js = [] # custom_js = ["js/custom.js"] and then make file at root/assets/js/custom.js
+useFaviconGenerator = false # https://www.favicon-generator.org/
+
+themeOptions = ["light", "dark"] #, "hacker", "solarized", "kimbie"] # select options for site color theme
+notAllowedTypesInHome = ["contact", "talks", "about", "showcase"] # not allowed page types in home page. type can be set in front matter or default to folder name.
+notAllowedTypesInHomeSidebar = ["about", "archive", "showcase"] # not allowed page types in home page sidebar(recent post titles).
+notAllowedTypesInArchive = ["about", "talks", "showcase"] # not allowed page types in archive page
+
+# header
+homeHeaderType = "empty" # text, img, slide
+
+# navbar
+enableThemeChange = true # site color theme
+
+# body
+enableBreadcrumb = true # breadcrumb for list, single page
+enableSearch = true # site search with Fuse
+enableSidebarSearch = false
+enableSearchHighlight = true # when true, search keyword will be highlighted
+enableGoToTop = true # scroll to top
+enableWhoami = false # at the end of single page
+summaryShape = "compact" # card, classic, compact
+searchResultPosition = "side" # side, main
+archiveGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
+archivePaginate = 10 # items per page
+paginateWindow = 1 # setting it to 1 gives 7 buttons, 2 gives 9, etc. If set 1: [1 ... 4 5 6 ... 356] [1 2 3 4 5 ... 356] etc
+talksPaginate = 8 # items per page
+talksGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
+
+# whoami: usage - home page sidebar, single page bottom of post. all values can be empty
+myname = "srijan's blog"
+# email = "srijan4@gmail.com"
+whoami = "Random posts on programming, linux, system administration, etc"
+enableBioImage = false
+# bioImageUrl = "" # image url like http//... If not set, we find a avatar image in root/static/images/whoami/avatar.(png|jpg|svg)
+# useGravatar = false # we use this option highest priority
+# location = "India"
+# organization = "GreyOrange"
+# link = "https://github.com/zzossig/hugo-theme-zzo"
+
+# sidebar
+enableBio = false # home page sidebar
+enableSidebar = false # Set to false to create the full width of the content.
+enableSidebarTags = false # if you want to use tags.
+enableSidebarSeries = false
+enableSidebarCategories = false
+enableHomeSidebarTitles = false
+enableListSidebarTitles = false
+enableToc = true # single page table of contents, you can replace this param to toc(toc = true)
+hideToc = false # Hide or Show toc
+tocPosition = "outer" # inner, outer
+enableTocSwitch = true # single page table of contents visibility switch
+itemsPerCategory = 5 # maximum number of posts shown in the sidebar.
+sidebarPosition = "left" # bio, profile component layout position
+
+# footer
+showPoweredBy = false # show footer text: Powered by Hugo and Zzo theme
+showFeedLinks = true # RSS Feed 
+showSocialLinks = false # email, facebook, twitter ...
+enableLangChange = false # show button at bottom left of footer.
+
+# service
+baiduAnalytics = "" # alternative of google analytics
+enableBusuanzi = false # if set true, total page view, total unique visitors show up in the footer.
+busuanziSiteUV = true # unique visitors (total number of visitors)
+busuanziSitePV = true # site total page view count
+busuanziPagePV = true # post view count
+
+# rss
+updatePeriod = "" # Possible values: 'hourly', 'daily', 'weekly', 'monthly', or 'yearly'.
+updateFrequency = ""
+fullContents = true
+
+# comment
+enableComment = true
+disqus_shortname = "" 
+commento = false
+
+[gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
+  owner = ""              # Your GitHub ID
+  repo = ""               # The repo to store comments
+  clientId = ""           # Your client ID
+  clientSecret = ""       # Your client secret
+
+[utterances]       # https://utteranc.es/
+  owner = ""              # Your GitHub ID
+  repo = ""               # The repo to store comments
+
+[gitalk]           # Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
+  owner = ""              # Your GitHub ID
+  repo = ""               # The repo to store comments
+  clientId = ""           # Your client ID
+  clientSecret = ""       # Your client secret
+
+# Valine.
+# You can get your appid and appkey from https://leancloud.cn
+# more info please open https://valine.js.org
+[valine]
+  enable = false
+  appId = '你的appId'
+  appKey = '你的appKey'
+  notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
+  verify = false # Verification code
+  avatar = 'mm' 
+  placeholder = '说点什么吧...'
+  visitor = false
+
+[changyan]
+  changyanAppid = ""        # Changyan app id             # 畅言
+  changyanAppkey = ""       # Changyan app key
+
+[livere]
+  livereUID = ""            # LiveRe UID                  # 来必力
+
+# Isso: https://posativ.org/isso/
+[isso]
+  enable = true
+  scriptSrc = "https://comments.srijn.net/js/embed.min.js" # "https://isso.example.com/js/embed.min.js"
+  dataAttrs = "data-isso='https://comments.srijn.net' data-isso-require-author='true'" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
+
+[socialOptions] # if set, social icons will show up.
+  email = ""
+  phone = ""
+  facebook = ""
+  twitter = "https://twitter.com/srijan4"
+  github = "https://github.com/srijan"
+  stack-overflow = ""
+  instagram = ""
+  google-plus = ""
+  youtube = ""
+  medium = ""
+  tumblr = ""
+  linkedin = "https://www.linkedin.com/in/srijan4"
+  pinterest = ""
+  stack-exchange = ""
+  telegram = ""
+  steam = ""
+  weibo = ""
+  douban = ""
+  csdn = ""
+  gitlab = ""
+  mastodon = ""
+  jianshu = ""
+  zhihu = ""
+  signal = ""
+  whatsapp = ""
+
+[donationOptions]
+  enable = false # if set, the donation button will show up on the single page.
+  alipay = "" # Alipay QR Code image (example path: images/donation/alipay-qrcode.png) and put your file at root/static/images/donation/
+  wechat = "" # Wechat pay QR Code image (example path: same as above)
+  paypal = "" # Paypal URL
+  patreon = "" # Patreon URL
+  bitcoin = "" # example path: images/donation/bitcoin-code-image.png
+
+[copyrightOptions]
+  enableCopyrightLink = false # if set, you can add copyright link
+  copyrightLink = ""
+  copyrightLinkImage = ""
+  copyrightLinkText = ""
+
+# possible share name: ["facebook","twitter", "reddit", "linkedin", "tumblr", "weibo", "douban", "line"]
+# [[share]]
+#   name = "facebook"
+# [[share]]
+#   name = "twitter"
+#   username = ""

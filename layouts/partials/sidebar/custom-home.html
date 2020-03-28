@@ -1,0 +1,18 @@
+<section class="bio" data-dir="{{ $.Param "languagedir" | default "ltr" }}">
+  <div class="bio__name">
+    {{ $.Param "logoText" }}
+  </div>
+  <div class="bio__desc">
+    {{ $.Param "description" }}
+  </div>
+
+  <div class="bio__social">
+    {{ range $name, $path := $.Param "socialOptions" }}
+      {{ if (and $path (ne $name "email")) }}
+      <a href="{{ $path | safeURL }}" target="_blank" rel="noreferrer" title="{{ $name }}" aria-label="{{ $name }}">
+        {{ partial (print "svgs/social/" $name ".svg") (dict "width" 25 "height" 25) }}
+      </a>
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
