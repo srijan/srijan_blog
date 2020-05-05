@@ -34,7 +34,7 @@ I will keep using this, and adding to my setup as required, for a few weeks, and
 
 ### Complete ~/.emacs.d/init.el file:
 
-<script src="https://gist.github.com/srijan/6243716.js"></script>
+{{< gist srijan 6243716 >}}
 
 [1]: http://www.vim.org/
 [2]: http://www.gnu.org/software/emacs/

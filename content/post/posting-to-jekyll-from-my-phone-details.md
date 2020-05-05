@@ -18,5 +18,5 @@ The deploy script pulls the latest changes, rebuilds the website (using [jekyll]
 
 The webhook deploy script I use is something like this:
 
-<script src="https://gist.github.com/srijan/5233531.js"></script>
+{{< gist srijan 5233531 >}}
 

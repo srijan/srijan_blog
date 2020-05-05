@@ -33,7 +33,7 @@ Building LibreOffice on my laptop using icecream took about 50 minutes (for a cl
 
 ### My exports.sh file
 
-<script src="https://gist.github.com/srijan/6214104.js"></script>
+{{< gist srijan 6214104 >}}
 
 [1]: http://www.libreoffice.org/
 [2]: https://wiki.documentfoundation.org/Easy_Hacks

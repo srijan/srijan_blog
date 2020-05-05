@@ -45,7 +45,7 @@ Setup the supervisord file at `/usr/local/etc/supervisord.conf`.
 
 Sample supervisord.conf:
 
-<script src="https://gist.github.com/srijan/de43ac9ab30e6576de0d.js"></script>
+{{< gist srijan de43ac9ab30e6576de0d >}}
 
 And start it:
 
@@ -64,7 +64,7 @@ Create a `myapp.conf` in `conf.d`.
 
 Sample myapp.conf:
 
-<script src="https://gist.github.com/srijan/5f3ef70da9f5150d845e.js"></script>
+{{< gist srijan 5f3ef70da9f5150d845e >}}
 
 And start Nginx:
 

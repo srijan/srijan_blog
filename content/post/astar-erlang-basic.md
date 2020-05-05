@@ -11,7 +11,7 @@ This code is mostly a modified version of [this one](http://stevegilham.blogspot
 
 The code hosted on gist follows below, followed by some notes.
 
-<script src="https://gist.github.com/srijan/6142366.js"></script>
+{{< gist srijan 6142366 >}}
 
 ### Notes
 
