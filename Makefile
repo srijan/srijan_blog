@@ -6,7 +6,7 @@ clean:
 	rm -r public
 
 server: folders
-	hugo server -w
+	hugo server -w --buildDrafts
 
 folders:
 	mkdir -p static
