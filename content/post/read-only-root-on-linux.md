@@ -1,6 +1,6 @@
 ---
 title: Read only root on Linux
-tags: [linux, sysadmin]
+tags: [linux, sysadmin, devops]
 date: "2015-02-28T00:00:00"
 aliases: "/linux/read-only-root-on-linux.html"
 ---

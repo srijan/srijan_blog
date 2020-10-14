@@ -1,7 +1,7 @@
 ---
 title: "Install docker and docker-compose using Ansible"
 date: 2020-06-11T20:00:00+05:30
-tags: ["docker", "docker-compose", "ansible", "linux"]
+tags: ["docker", "docker-compose", "ansible", "linux", "devops"]
 ---
 
 I wanted a simple, but optimal (and fast) way to install docker and

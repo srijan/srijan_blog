@@ -1,7 +1,7 @@
 +++
 date = "2018-06-09T00:26:00+05:30"
 title = "Riemann and Zabbix: Sending data from riemann to zabbix"
-tags = ["riemann", "zabbix", "monitoring", "clojure"]
+tags = ["riemann", "zabbix", "monitoring", "clojure", "devops"]
 +++
 
 ### Background
