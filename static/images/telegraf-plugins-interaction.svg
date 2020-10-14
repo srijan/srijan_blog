@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="509px" preserveAspectRatio="none" style="width:521px;height:509px;" version="1.1" viewBox="0 0 521 509" width="521px" zoomAndPan="magnify"><defs/><g><!--MD5=[7f55565919cad08ec1768968c99e2901]
+cluster os--><rect fill="#FFFFFF" height="411" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="508" x="7" y="7"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="25" x="248.5" y="23.8516">OS</text><!--MD5=[31c3e1c488f2ae42dbc4c6a8f18213f3]
+cluster telegraf--><rect fill="#999999" height="342" style="stroke: #8A8A8A; stroke-width: 1.5;" width="210" x="281" y="52"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="78" x="347" y="68.8516">Telegraf</text><!--MD5=[e12268d1e1a19dce0682e6bde72a8dbe]
+entity cp1--><rect fill="#999999" height="38.625" style="stroke: #8A8A8A; stroke-width: 1.5;" width="170" x="23" y="214"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="150" x="33" y="238.8516">Custom Process</text><!--MD5=[fb14c9b1fd95d0c04eeb1a4af9d96e82]
+entity input--><rect fill="#1168BD" height="38.625" style="stroke: #3C7FC0; stroke-width: 1.5;" width="128" x="322" y="89"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="108" x="332" y="113.8516">Input Plugin</text><!--MD5=[81a0e88c051809f14dd239f35102227c]
+entity execd--><rect fill="#1168BD" height="57.25" style="stroke: #3C7FC0; stroke-width: 1.5;" width="177" x="297.5" y="205"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="151" x="307.5" y="229.8516">Execd Processor</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="55" x="358.5" y="248.4766">Plugin</text><!--MD5=[c661d977cad040094ee01910682146de]
+entity output--><rect fill="#1168BD" height="38.625" style="stroke: #3C7FC0; stroke-width: 1.5;" width="146" x="313" y="339"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="126" x="323" y="363.8516">Output Plugin</text><!--MD5=[eabd8124e607afe54d075c00906eabc7]
+link input to execd--><path d="M386,128.181 C386,147.175 386,176.986 386,199.885 " fill="none" id="input-to-execd" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="386,204.954,390,195.954,386,199.954,382,195.954,386,204.954" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="0" x="392" y="171.0669"/><!--MD5=[c6488c90f22e0a6bf12ac0b38b592df5]
+link execd to output--><path d="M386,262.104 C386,283.651 386,313.272 386,333.765 " fill="none" id="execd-to-output" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="386,338.7677,390,329.7677,386,333.7677,382,329.7677,386,338.7677" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="0" x="392" y="305.0669"/><!--MD5=[89d9fc7b2f172bcbd72998c6eda2a6e7]
+link execd to cp1--><path d="M297.497,233.5 C265.852,233.5 230.167,233.5 198.367,233.5 " fill="none" id="execd-to-cp1" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="193.298,233.5,202.298,237.5,198.298,233.5,202.298,229.5,193.298,233.5" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="68" x="211.25" y="226.5669">|  stdin  |</text><!--MD5=[14ecfefbb990738b45ea7c6c67ea9384]
+reverse link execd to cp1--><path d="M292.35,251.835 C287.254,252.485 282.197,253.049 277.25,253.5 C248.923,256.083 241.569,256.167 213.25,253.5 C206.676,252.881 199.902,252.049 193.109,251.075 " fill="none" id="execd-backto-cp1" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="297.456,251.157,288.0084,248.3744,292.4994,251.8141,289.0597,256.305,297.456,251.157" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="62" x="214.25" y="249.5669">|stdout|</text><rect fill="#DDDDDD" height="62.8906" rx="5" ry="5" style="stroke: #000000; stroke-width: 1.0;" width="197" x="302" y="431"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="0" x="378" y="450.9951"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="39" x="383" y="450.9951">Type</text><rect fill="#1168BD" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="70" x="308" y="454.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="320" y="467.292"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="107" x="382" y="467.292">Telegraf Plugin</text><rect fill="#999999" height="16.2969" style="stroke: none; stroke-width: 1.0;" width="70" x="308" y="470.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="332" y="483.5889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="79" x="382" y="483.5889">OS Process</text><line style="stroke: #000000; stroke-width: 1.0;" x1="308" x2="493" y1="438" y2="438"/><line style="stroke: #000000; stroke-width: 1.0;" x1="308" x2="493" y1="454.2969" y2="454.2969"/><line style="stroke: #000000; stroke-width: 1.0;" x1="308" x2="493" y1="470.5938" y2="470.5938"/><line style="stroke: #000000; stroke-width: 1.0;" x1="308" x2="493" y1="486.8906" y2="486.8906"/><line style="stroke: #000000; stroke-width: 1.0;" x1="308" x2="308" y1="438" y2="486.8906"/><line style="stroke: #000000; stroke-width: 1.0;" x1="378" x2="378" y1="438" y2="486.8906"/><line style="stroke: #000000; stroke-width: 1.0;" x1="493" x2="493" y1="438" y2="486.8906"/><!--MD5=[c6101371dd611b1de5b30ca7598eeb38]
+@startuml
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Container.puml
+LAYOUT_WITH_LEGEND()
+
+Boundary(os, "OS") {
+    System_Ext(telegraf, "Telegraf") {
+        System(input, "Input Plugin")
+        System(execd, "Execd Processor Plugin")
+        System(output, "Output Plugin")
+        
+        Rel_D(input, execd, " ")
+        Rel_D(execd, output, " ")
+    }
+    
+    System_Ext(cp1, "Custom Process")
+    Rel_R(execd, cp1, "|  stdin  |")
+    Rel_L(cp1, execd, "|stdout|")
+    
+}
+
+legend right
+|=              |= Type |
+|<SYSTEM_BG_COLOR>   | Telegraf Plugin |
+|<EXTERNAL_SYSTEM_BG_COLOR>      | OS Process |
+endlegend
+@enduml
+
+@startuml
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|=              |= Type |
+|<#08427B>      | person |
+|<#686868>      | external person |
+|<#1168BD>   | system |
+|<#999999>      | external system |
+|<#438DD5>   | container |
+endlegend
+
+rectangle "==OS" <<boundary>> as os {
+    rectangle "==Telegraf" <<external_system>> as telegraf {
+        rectangle "==Input Plugin" <<system>> as input
+        rectangle "==Execd Processor Plugin" <<system>> as execd
+        rectangle "==Output Plugin" <<system>> as output
+        
+        input -DOWN-> execd : "=== "
+        execd -DOWN-> output : "=== "
+    }
+    
+    rectangle "==Custom Process" <<external_system>> as cp1
+    execd -RIGHT-> cp1 : "===|  stdin  |"
+    cp1 -LEFT-> execd : "===|stdout|"
+    
+}
+
+legend right
+|=              |= Type |
+|<#1168BD>   | Telegraf Plugin |
+|<#999999>      | OS Process |
+endlegend
+@enduml
+
+PlantUML version 1.2020.19(Mon Oct 12 15:10:01 UTC 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
